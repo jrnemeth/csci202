@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Documentation</title>
+</head>
+<body>
+    <h1>Documentation</h1>
+<p>The ideas that went into this project mostly reflect my life here at Western so far. I chose the communications facility not only because of it being the primary building I find myself in for classes, but
+    because it was what I found myself being in for much of my day for labs and just general human interaction. I specifically chose the first floor labs of CF because of everything you have access to in proximity
+    of working on coding projects. The 4 labs that most days you'll struggle to find a seat at peak hours, the constant checking of classes still in session to see if maybe you could sneak in and just use the 
+    computer for a bit without anyone getting angry at you. You also have access to snacks and drinks right outside with the vending machines, and I felt that this information was very catered to the people that I 
+    continue to meet on the first floor labs. I myself would have wanted a website where I could see not only the class times listed on the labs, but also a general note on if there was a class, how hard it
+    would be for you to walk in and find a computer to use. I also at times wished I knew what my $1.25 could buy me at the vending machine, which is why I thought the inclusion of a vending page would somehow
+    be relevant to myself and others, this is why I added a visual, as well as estimates of the products and my own recommendation through a button, not only to fill up more white space on the page, but to 
+    have substance to the information I was providing as well as personalizing the site to me.<br><br>
+
+    Initially I wanted my site to look very clean, I knew that having access to such a vast library of jquery, css, javascript, etc. through their templates and downloads would enable me to make a website that I 
+    could see myself visiting at some point. This led me to searching for the exact format that I wanted, or at least an object that I could use to bring together the website so that it didn't merely look like
+    pictures and words on a page. Eventually I decided on using a "carousel" object that would let me utilize slideshow properties, but also have a more interactive approach with the picture block slides in the bottom
+    middle letting you know how many things it had to cycle through, as well as the less intrusive button design that came with it.<br><br>
+
+
+    I then began experiementing with page layout for the original page. Going through everything we had learned, Mina's grid template that we learned in a previous lab seemed very well made to me and kept the page
+    not looking too cluttered from our bootstrap lesson. I decided to "grid" descriptions of the content on the page with pictures so that it would show up well on desktop and mobile. Another thing that I took
+    away from the lab was the ability to use a collapsable nav. For me personally, most websites with multiple page directories should have a collapsable nav of some sort so that the top bar of the website does not
+    look cluttred. The nav element through bootstrap as far as I knew did not have that many color variations, but the dark themed one fit well for my website so I chose to use that one.<br><br>
+
+    Finally, the carousel seemed to be overkill on top of every page because you had the nav at the top, and each page in my vision should be outlining the information that they were bringing to the user. Jumbotron
+    which we learned in lab as well, seemed to have the fluid look of carousel but only a single slide so that there wouldn't be too much for someone using the site to look at, very to the point design in my eyes. 
+    The big issues I ran into with the website were the use of the pictures and how I would be able to format them, finally deciding on the bootstrap format of 6-6-12 grid. My last issue and largest issue with 
+    website creation was the carousel on the home page not displaying the white text with the pictures very well. Some neutral colors made the text blend in, but I was set on using a picture carousel to add more
+    to the website. I finally learned that there was a specific format for an element of the carousel class through bootstrap which would let me turn each img element to an opacity lower than 100% which ended up
+    leaving a more gray background to the white text which I felt helped the user see the text as well as have access to a visual.<br>
+    <img src = "images/mobileimg1">
+    <img src = "images/mobileimg2">
+    <img src = "images/mobileimg3">
+
+</p>
+
+    
+</body>
+</html>
